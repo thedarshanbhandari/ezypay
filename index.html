@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ezypay</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="">
+    <!----------------------------navbar ---------------------------->
+    <div class="navbar h-20 bg-white  shadow-2xl flex justify-around items-center fixed w-full top-0 z-40">
+        <div>
+            <img src="img/logo.svg " class="h-12" />
+        </div>
+        <div>
+            <ul class="flex justify-center items-center gap-10 text-xl text-black">
+                <li class="cursor-pointer border-b-4 border-blue-500 ">Home</li>
+                <li class="cursor-pointer">Service</li>
+                <li class="cursor-pointer">Platform</li>
+                <li class="cursor-pointer">About us</li>
+                <li class="cursor-pointer">company</li>
+            </ul>
+        </div>
+
+        <button class="w-36 rounded-xl h-12 bg-blue-500 text-white font-semibold text-lg">Contact us</button>
+
+
+    </div>
+    <!----------------------------navbar ends ---------------------------->
+
+    <!-------------- landing page starts -------------->
+    <div class="landing-page  mt-16">
+        <!-- swiper starts  -->
+        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true"
+            space-between="30" centered-slides="true" autoplay-delay="6000" autoplay-disable-on-interaction="false">
+            <swiper-slide>
+                <image src="img/posterlanding1.jpg " class="w-screen " />
+            </swiper-slide>
+            <swiper-slide>
+                <image src="img/posterlanding1.jpg " class="w-screen " />
+            </swiper-slide>
+            <swiper-slide>
+                <image src="img/posterlanding1.jpg " class="w-screen " />
+            </swiper-slide>
+            <swiper-slide>
+                <image src="img/posterlanding1.jpg " class="w-screen " />
+            </swiper-slide>
+        </swiper-container>
+        <!-- swiper ends  -->
+         <!-- buttons starts  -->
+        <div class="h-64 bg-blue-50 flex flex-col justify-center items-center gap-14">
+            <div class="flex gap-6">
+                <button class="w-48 h-14 bg-blue-500  rounded-lg text-white font-semibold flex justify-center items-center gap-2 hover:bg-blue-700 duration-300" > <img src ='img/playstore.svg' /> DOWNLOAD APP</button> 
+                <button class="w-48 h-14 bg-gray-600 rounded-lg text-white font-semibold hover:bg-gray-900 duration-300">JOIN US</button>
+            </div>
+            <h2 class=" text-4xl font-bold">Check <span class="text-blue-500">Our Services</span></h2>
+        </div>
+    </div>
+    <!-------------- landing page ends -------------->
+
+    <!-------------- service page starts -------------->
+    <div class="service-page h-screen    flex justify-center items-center">
+        <div class="w-72 h-[90%] bg-[#304168] ml-20 rounded-2xl flex flex-col justify-center items-center p-5 gap-6">
+            <button class="h-16 w-60 rounded-xl   border-[2px] text-white font-semibold hover:bg-white hover:text-[#304168] transition-all duration-500">Domestic Money <br> Transfer</button> 
+            <button class="h-16 w-60 rounded-xl   border-[2px] text-white font-semibold hover:bg-white hover:text-[#304168] transition-all duration-500">Aadhaar Banking/ <br> AePS</button>        
+            <button class="h-16 w-60 rounded-xl   border-[2px] text-white font-semibold hover:bg-white hover:text-[#304168] transition-all duration-500">Utility Bill <br> Payments/BBPS</button>        
+            <button class="h-16 w-60 rounded-xl   border-[2px] text-white font-semibold hover:bg-white hover:text-[#304168] transition-all duration-500">Recharge & DTH </button>        
+            <button class="h-16 w-60 rounded-xl   border-[2px] text-white font-semibold hover:bg-white hover:text-[#304168] transition-all duration-500">FasTag </button>        
+            <button class="h-16 w-60 rounded-xl   border-[2px] text-white font-semibold hover:bg-white hover:text-[#304168] transition-all duration-500">Micro ATM </button>        
+            <button class="h-16 w-60 rounded-xl   border-[2px] text-white font-semibold hover:bg-white hover:text-[#304168] transition-all duration-500">Travels </button>        
+
+        </div>
+        <div class="w-[60%] h-[90%]  ml-20 rounded-2xl ">
+             <!-- swiper for sevices section starts  -->
+        <swiper-container class="mySwiper" pagination="true"  
+        space-between="30" centered-slides="true" autoplay-delay="6000" autoplay-disable-on-interaction="false" >
+        <swiper-slide class="flex justify-center items-center" >
+           <div class="h-[610px] w-[90%] bg-gray-50 rounded-3xl border-[1px] flex justify-center items-center  gap-10">
+            <img src="img/cardcoin.svg"/>
+            <div>
+            <p class="text-3xl font-bold w-96">Instant Money Transfer, Anytime and Anywhere </p>
+                <p class="w-96 mt-8 text-xl">
+                Ezypay remittance service gives you the feature to turn your own shop into a bank. Customers who do not have bank accounts but still want to transfer money using cash can visit your shop. You can take the cash and transfer digital money to the bank account specified by them. Easy and effective!</p>
+                <button class="text-white font-bold h-14 w-44 bg-blue-500 mt-6 rounded-lg hover:bg-blue-700 transition-all duration-60">Read More </button>
+            </div>
+           </div>
+        </swiper-slide>
+        <swiper-slide class="flex justify-center items-center">
+            <div class="h-[610px] w-[90%] bg-gray-50 rounded-3xl border-[1px] flex justify-center items-center  gap-10">
+                <img src="img/cardcoin.svg"/>
+                <div>
+                <p class="text-3xl font-bold w-96">Aadhaar Banking/AePS </p>
+                <p class="w-96 mt-8 text-xl">
+                    Aadhaar enabled Payment System (AEPS) is a secured payment method provided by the National Payments Corporation of India (NPCI) that allows aadhaar linked bank account holders to avail basic banking services such as balance inquiry, cash withdrawal and mini statement. Customers simply need to tell Ezypay Retailer their 12-digit aadhaar number and aadhaar linked Bank name.</p>
+                    <button class="text-white font-bold h-14 w-44 bg-blue-500 mt-6 rounded-lg hover:bg-blue-700 transition-all duration-60">Read More </button>
+
+            </div>
+            </div>
+        </swiper-slide>
+        <swiper-slide class="flex justify-center items-center">
+            <div class="h-[610px] w-[90%] bg-gray-50 rounded-3xl border-[1px] flex justify-center items-center  gap-10">
+                <img src="img/cardcoin.svg"/>
+                <div>
+                <p class="text-3xl font-bold w-96">Utility Bill Payments/BBPS</p>
+                <p class="w-96 mt-8 text-xl">
+                    Bharat Bill Payment System (BBPS) is a Reserve Bank of India (RBI) conceptualised system which offers integrated, accessible and interoperable bill payment services to consumers across geographies with certainty, reliability and safety of transactions.</p>
+                    <button class="text-white font-bold h-14 w-44 bg-blue-500 mt-6 rounded-lg hover:bg-blue-700 transition-all duration-60">Read More </button>
+            </div>
+            </div>
+        </swiper-slide>
+        <swiper-slide class="flex justify-center items-center">
+            <div class="h-[610px] w-[90%] bg-gray-50 rounded-3xl border-[1px] flex justify-center items-center  gap-10">
+                <img src="img/cardcoin.svg"/>
+                <div>
+                <p class="text-3xl font-bold w-96">Recharge & DTH </p>
+                <p class="w-96 mt-8 text-xl">
+                    Ezypay is conceived and designed to create a revolution in the Telecom Service sector in India. We have revolutionized the technology and created a unique and user friendly platform to perform the high volume transactions at a much optimized cost which can be afforded by all.</p>
+                    <button class="text-white font-bold h-14 w-44 bg-blue-500 mt-6 rounded-lg hover:bg-blue-700 transition-all duration-60">Read More </button>
+            </div>
+            </div>
+        </swiper-slide>
+        <swiper-slide class="flex justify-center items-center">
+            <div class="h-[610px] w-[90%] bg-gray-50 rounded-3xl border-[1px] flex justify-center items-center  gap-10">
+                <img src="img/cardcoin.svg"/>
+                <div>
+                <p class="text-3xl font-bold w-96">FasTag </p>
+                <p class="w-96 mt-8 text-xl">
+                    FasTag is a reloadable label that automatically deducts tolls and allows vehicles to pass through toll booths without stopping payments. It uses radio frequency identification (RFID) technology to make cashless payments through prepaid accounts associated with it.</p>
+                    <button class="text-white font-bold h-14 w-44 bg-blue-500 mt-6 rounded-lg hover:bg-blue-700 transition-all duration-60">Read More </button>
+            </div>
+            </div>
+        </swiper-slide>
+        <swiper-slide class="flex justify-center items-center">
+            <div class="h-[610px] w-[90%] bg-gray-50 rounded-3xl border-[1px] flex justify-center items-center  gap-10">
+                <img src="img/cardcoin.svg"/>
+                <div>
+                <p class="text-3xl font-bold w-96">Micro/Mini ATM </p>
+                <p class="w-96 mt-8 text-xl">
+                    Ezypay’s vision is to build an extensive public banking infrastructure that not only provides quality banking services, but also is available to ordinary citizens in urban and rural India.
+                    Supplementary Branch Outreach is a Micro/Mini ATM network that provides convenient banking services to citizens. All in all, this is one of Ezypay's missions to bridge the gap between the availability and accessibility of ordinary citizens providing simple banking services.</p>
+                    <button class="text-white font-bold h-14 w-44 bg-blue-500 mt-6 rounded-lg hover:bg-blue-700 transition-all duration-60">Read More </button>
+            </div>
+            </div>
+        </swiper-slide>
+        <swiper-slide class="flex justify-center items-center">
+            <div class="h-[610px] w-[90%] bg-gray-50 rounded-3xl border-[1px] flex justify-center items-center  gap-10">
+                <img src="img/cardcoin.svg"/>
+                <div>
+                <p class="text-3xl font-bold w-96">Travels </p>
+                <p class="w-96 mt-8 text-xl">
+                    We take pride in operating our business in a professional and responsible manner. Our travel agents are inspired and guided by our basics that allow us to satisfy a large number of customers. We have created a niche in the travel market that gives us an important position between our suppliers and customers. We believe that travel is an experience in itself. Therefore, it must be easy and hassle-free.</p>
+                    <button class="text-white font-bold h-14 w-44 bg-blue-500 mt-6 rounded-lg hover:bg-blue-700 transition-all duration-60">Read More </button>
+            </div>
+            </div>
+        </swiper-slide>
+    </swiper-container>
+    <!-- swiper ends  -->
+        </div>
+    </div>
+<!-------------- service page ends -------------->
+
+
+ <!------------------about us page ------------------------->
+    <div class="about-us flex justify-center items-center mt-5 gap-6">
+
+        <div class="w-[600px] ">
+            <h class="text-[#304168] text-5xl font-bold  ">We Create <span class="underline underline-offset-8  decoration-blue-400  leading-[5rem]">Successful</span> Digital Product</h>
+            <p class="mt-8 text-xl">Ezypay online services private limited is a leading fintech Company in m-commerce. The company is committed to drive digital platform and financial inclusion by offering large financial solutions i.e withdrawal and remittance services to customers (nearly 80% of whom are migrants or the unbanked section of the population) that are simple, transparent and accessible to all. Ezypay online consistently expanding operations since its entry in 2010, with its operations spread over 95 cities across 15 States in India.</p>
+            <button class="text-white font-bold h-14 w-40 text-xl bg-blue-500 mt-8 rounded-lg hover:bg-blue-700 transition-all duration-60 flex justify-center items-center">More <img src="img/arrow.svg" class="text-white h-6 mt-1"/></button>
+        </div>
+        <img src="img/aboutimg.svg" />
+
+    </div>
+
+  <!-----------------about us page ends --------------------->
+  <!-------------------- platform portion starts ------------------ -->
+
+    <div class="platform-section  flex flex-col justify-start items-center mt-20 ">
+        <h class="text-[#304168] text-5xl font-bold  text-center leading-[4rem]">What We Will Do For <br> Your <span class="text-blue-400">Business </span> </h>
+    </div>
+    <div class="flex justify-center items-center mt-14 mb-44 gap-14">
+        <img src="img/platformimg.svg" />
+        <div class="grid grid-cols-2 gap-12 relative z-10">
+            <div class="absolute ml-36 mt-10 h-[400px] w-[400px]  -z-20 bg-blue-100 blur-[100px]"></div>
+            <div class="h-56 w-80 bg-white rounded-3xl shadow-xl flex flex-col justify-center items-center  gap-4 hover:scale-110 duration-300 cursor-pointer">
+                <h class="text-2xl font-bold">Retailer</h>
+                <p class="text-center w-60 text-lg ">As we can’t imagine the life without the Mobile service anymore, it’s a...</p>
+                <p class="text-blue-500 font-bold cursor-pointer hover:underline flex  justify-center items-center ">Read More <img src="img/arrow1.svg" class="text-white h-5 mt-1"/></p>
+            </div>
+            <div class="h-56 w-80 bg-white rounded-3xl shadow-xl flex flex-col justify-center items-center  gap-4 hover:scale-110 duration-300 cursor-pointer">
+                <h class="text-2xl font-bold">Distributor</h>
+                <p class="text-center w-60 text-lg" >For greater penetration in the marketplace, we have partnered up with...</p>
+                <p class="text-blue-500 font-bold cursor-pointer hover:underline flex  justify-center items-center ">Read More <img src="img/arrow1.svg" class="text-white h-5 mt-1"/></p>
+            </div>
+            <div class="h-56 w-80 bg-white rounded-3xl shadow-xl flex flex-col justify-center items-center  gap-4 hover:scale-110 duration-300 cursor-pointer">
+                <h class="text-2xl font-bold">API Partner</h>
+                <p class="text-center w-60 text-lg" >An application programming interface (API) specifies how...</p>
+                <p class="text-blue-500 font-bold cursor-pointer hover:underline flex  justify-center items-center ">Read More <img src="img/arrow1.svg" class="text-white h-5 mt-1"/></p>
+            </div>
+            <div class="h-56 w-80 bg-white rounded-3xl shadow-xl flex flex-col justify-center items-center  gap-4 hover:scale-110 duration-300 cursor-pointer">
+                <h class="text-2xl font-bold">White Label</h>
+                <p class="text-center w-60 text-lg" >If you are a new entrepreneur and start a your online business...</p>
+                <p class="text-blue-500 font-bold cursor-pointer hover:underline flex  justify-center items-center ">Read More <img src="img/arrow1.svg" class="text-white h-5 mt-1"/></p>
+            </div>
+        </div>
+    </div>
+    <!-------------------- platform portion ends ------------------ -->
+    <!----------------------india map section starts------------------->
+    <div class="indian-map flex  justify-center items-start h-screen">
+        <h class="text-[40px] font-bold text-center ">Make financial services accessible <br> to everyone, everywhere <br></h>
+        
+        <!-- all images section  -->
+        <img src="img/india.svg"  class="absolute -z-10 ml-28"/>
+        <img src="img/shadedball1.svg" class="absolute right-10 mt-20"/>
+        <img src="img/shadedball1.svg" class="absolute left-16 mt-[400px] rotate-180"/>
+        <img src="img/shadedball.svg" class="absolute left-52 ml-5 mt-14 "/>
+        <img src="img/dotback.svg" class="absolute left-0 ml-8 "/>
+        <img src="img/dotback.svg" class="absolute right-0  mt-[500px] mr-8 "/>
+
+
+        <!-- visiters portion  -->
+        <div  class="flex absolute justify-center items-center mt-64  ">
+            <div class="h-44 w-[395px]  flex flex-col justify-center items-center border-r-[1px] border-[#304168bc]">
+                <p class="text-5xl font-bold text-[#304168]">200</p>
+                <p class="text-3xl font-semibold mt-2">No of Retailers</p>
+            </div>
+            <div class="h-44 w-[395px]  flex flex-col justify-center items-center border-r-[1px] border-[#304168bc]">
+                <p class="text-5xl font-bold text-[#304168]">200</p>
+                <p class="text-3xl font-semibold mt-2">No of Customer Served</p>
+            </div>
+            <div class="h-44 w-[395px]  flex flex-col justify-center items-center ">
+                <p class="text-5xl font-bold text-[#304168]">200</p>
+                <p class="text-3xl font-semibold mt-2">No of PIN Code Served</p>
+            </div>
+        </div>
+       
+    </div>
+
+    <!----------------------india map section ends------------------->
+
+    <!------------------------- why choose us section starts------------------------->
+
+    <div class="why-choose-us-section h-screen flex flex-col justify-start items-center mt-10">
+       
+            <h class="text-[#304168] text-6xl font-bold">Why<span class="text-blue-400 font-bold"> Choose Us</span></h>
+        <div class="grid grid-cols-3 gap-10 mt-20">
+            <div class="h-60 w-96  rounded-3xl shadow-xl border bg-white flex flex-col justify-center items-center gap-6 hover:scale-105 duration-300 cursor-pointer">
+                <img src="img/chooseimg1.svg" alt="">
+                <h  class="font-semibold text-3xl">Easy to Integrate</h>
+            </div>
+            <div class="h-60 w-96  rounded-3xl shadow-xl border bg-white flex flex-col justify-center items-center gap-6 hover:scale-105 duration-300 cursor-pointer">
+                <img src="img/chooseimg2.svg" alt="">
+                <h class="font-semibold text-3xl">Daily Reconciliation</h></div>
+            <div class="h-60 w-96  rounded-3xl shadow-xl border bg-white flex flex-col justify-center items-center gap-6 hover:scale-105 duration-300 cursor-pointer">
+                <img src="img/chooseimg3.svg" alt="">
+                <h class="font-semibold text-3xl">Real-time Reversals</h></div>
+            <div class="h-60 w-96  rounded-3xl shadow-xl border bg-white flex flex-col justify-center items-center gap-6 hover:scale-105 duration-300 cursor-pointer">
+                <img src="img/chooseimg4.svg" alt="">
+                <h class="font-semibold text-3xl">99.9% Up-time</h></div>
+            <div class="h-60 w-96  rounded-3xl shadow-xl border bg-white flex flex-col justify-center items-center gap-6 hover:scale-105 duration-300 cursor-pointer">
+                <img src="img/chooseimg5.svg" alt="">
+                <h class="font-semibold text-3xl">Status Query</h></div>
+            <div class="h-60 w-96  rounded-3xl shadow-xl border bg-white flex flex-col justify-center items-center gap-6 hover:scale-105 duration-300 cursor-pointer">
+                <img src="img/chooseimg6.svg" alt="">
+                <h class="font-semibold text-3xl">No additional Fees</h></div>
+
+        </div>
+        <div class="absolute  mt-48 h-[400px] w-[400px]  -z-20 bg-blue-100 blur-[100px]"></div>
+
+    </div>
+
+
+    <!------------------------- why choose us section ends ------------------------->
+
+    <!-- --------------------------partners section starts -------------------------- -->
+    <div class="h-screen bg-gradient-to-r from-blue-200 to-blue-100 mt-20  flex flex-col justify-start items-center">
+        <img src="img/dotback1.svg" alt="" class=" absolute h-24 left-6 mt-6">
+        <img src="img/dotback.svg" alt="" class=" absolute h-24 right-6 mt-[570px]">
+
+        <h class="font-bold text-5xl mt-20">OUR <span class="font-bold  text-blue-500">PARTNERS</span></h>
+
+
+        <!-- ----swiper slide partners ---- -->
+        <div class="w-[80%] bg-white h-72  rounded-full mt-32   ">
+            <swiper-container class="mySwiper cursor-pointer"   space-between="0"
+    slides-per-view="3"  autoplay-delay="2000"  >
+    <swiper-slide class="flex justify-center items-center h-72">
+        <img src="img/yesbank.svg" class="h-24"/>
+    </swiper-slide>
+    <swiper-slide class="flex justify-center items-center h-72">
+        <img src="img/axisbank.svg" class="h-16"/>
+    </swiper-slide>
+    <swiper-slide class="flex justify-center items-center h-72">
+        <img src="img/sbibank.svg" class="h-24"/>
+    </swiper-slide>
+    <swiper-slide class="flex justify-center items-center h-72">
+        <img src="img/yesbank.svg" class="h-24"/>
+    </swiper-slide>
+    <swiper-slide class="flex justify-center items-center h-72">
+        <img src="img/axisbank.svg" class="h-16"/>
+    </swiper-slide>
+    <swiper-slide class="flex justify-center items-center h-72">
+        <img src="img/sbibank.svg" class="h-24"/>
+    </swiper-slide>
+    <swiper-slide class="flex justify-center items-center h-72">
+        <img src="img/yesbank.svg" class="h-24"/>
+    </swiper-slide>
+  </swiper-container>
+</div>
+            
+    </div>
+
+    <!-- --------------------------partners section ends -------------------------- -->
+
+    <!---------------------------- contact us section  starts---------------------------->
+
+    <div class="contact flex flex-col justify-start items-center mb-28">
+        <!-- ball shaded  -->
+        <img src="img/shadedball.svg" class="absolute left-0 mt-96  h-36 -z-10 ml-36" />
+
+        <img src="img/shadedball.svg" class="absolute right-0 mt-28 mr-36 -z-20 h-44"/>
+        <img src="img/shadedball.svg" class="absolute -z-20 left-0 mt-[740px] ml-[550px] h-20"/>
+
+        <img src="img/shadedball.svg" class="absolute right-0 mt-[740px] -z-20 h-20 mr-48"/>
+
+        
+
+
+
+        <img src="img/dotback.svg" alt="" class=" absolute h-24 left-6 mt-8">
+        <!-- heading  -->
+        <h class="text-[#304168] font-bold text-6xl mt-12">Contact Us</h>
+        <!-- box flexing  -->
+        <div class="flex  justify-center items-center  mt-20">
+            <!-- box1 -->
+        <div class="h-[500px] w-[600px] bg-white   rounded-xl flex flex-col justify-center  items-start p-16 gap-12 relative z-20 -mr-10 shadow-2xl">
+            <h class="text-[#304168] font-bold text-5xl leading-[4rem]">Lets get you <br><span class="text-blue-400">Connected</span></h>
+            <div class="flex justify-start items-start gap-4">
+                <img src="img/location.svg" alt="" class="mt-2">
+                <div>
+                    <span class="font-bold ">Our Location</span>
+                    <p class="text-sm">Sentrum Office Block, First Floor, Unit No. 107, Asansol-713305, Paschim Bardhaman, West Bengal</p>
+                </div>
+            </div>
+            <div class=" flex justify-start items-start gap-4">
+                <img src="img/support.svg" alt="" class="mt-2">
+                <div>
+                <span class="font-bold text-sm">Support</span>
+                <p class="text-sm"> support@ezypay.co.in <br>+91 9332997400 <br>0341 225 3334</p>
+            </div>
+            </div>
+            
+        </div>
+        <!-- box2  -->
+        <div class="h-[650px] w-[470px]  bg-gradient-to-r from-blue-300  to-[#0091F9] rounded-xl flex flex-col justify-center items-center gap-8 shadow-xl">
+            <input type="text" placeholder="Enter Your name"  class="w-80 bg-transparent h-12 text-white border-b-2  placeholder:text-white text-xl outline-none caret-white ">
+            <input type="text" placeholder="Enter Contact Number" class="w-80 bg-transparent h-12 text-white border-b-2  placeholder:text-white text-xl outline-none caret-white" >
+            <input type="text" placeholder="Email" class="w-80 bg-transparent h-12 text-white border-b-2  placeholder:text-white text-xl outline-none caret-white"  >
+            <h1 class="w-80 bg-transparent text-white text-xl outline-none">Enter Message</h1>
+            <textarea name="Send Message" id="" cols="30" rows="5" class="bg-transparent  border-[2px] rounded-xl outline-none w-80 p-8 caret-white text-white overflow-hidden "></textarea>
+            <button class="h-12 w-40 bg-white text-blue-700 font-bold rounded-md">SEND</button>
+        </div>
+    </div>
+    </div>
+
+    <!---------------------------- contact us section  ends---------------------------->
+
+
+
+    <!------------------------ download now section starts------------------------ -->
+    
+    <div class="h-[610px] bg-gradient-to-r from-blue-500 to-blue-300 mt-20  flex  justify-center items-center gap-8">
+        <img src="img/dotback.svg" alt="" class="absolute left-0 ml-7 mt-[460px] h-24">
+        <img src="img/shadedball.svg" alt="" class="rotate-180 absolute left-0 mb-96 ml-12 ">
+        <img src="img/shadedball.svg" alt="" class="rotate-180 absolute  mb-32 h-32 ml-7">
+        <img src="img/dotback.svg" alt="" class="absolute right-0 mb-[450px] mr-7 h-24">
+
+        <div class="left flex flex-col justify-start items-start gap-6 relative z-10">
+            <h class="text-[55px] leading-[5rem] text-white font-bold">Our App Is Available <br>For Any Device <br>Download Now</h>
+            <p class="text-white text-xl w-[500px]">Become a Ezypay powered retailer & earn extra income by offering digital  banking and financial services at your retail store. Download the App Now!</p>
+            <button class="bg-[#2b3650] mt-5 text-white w-52 h-16 font-semibold  flex justify-center items-center rounded-lg  gap-2 hover:bg-[#2b3650d0] duration-300"><img src="img/playstore.svg" alt="">DOWNLOAD APP</button>
+        </div>
+        <div class="right">
+            
+            <img src="img/downloadpage.svg" alt="" class=" relative z-20">
+        </div>
+
+    </div>
+
+    <!------------------------ download now section ends------------------------ -->
+    <!------------------------footer section starts ------------------------>
+
+    <div class="footer-section h-[500px]  bg-[#2B3650] flex flex-col justify-center items-center">
+
+        <div class="flex justify-center items-center   gap-32 mt-4">
+            <div class="section-1 flex flex-col justify-center items-start gap-10 ">
+                <img src="img/logo.svg" alt="" class=" ">
+                <p class="text-gray-100 text-xl w-64">Sentrum Office Block, First Floor, Unit No. 107, Asansol-713305, Paschim Bardhaman, West Bengal</p>
+            <div class="flex h-8 gap-5">
+                <img src="img/fb.svg" alt="" class="hover:scale-110 duration-300 cursor-pointer">
+                <img src="img/in.svg" alt="" class="hover:scale-110 duration-300 cursor-pointer">
+                <img src="img/twitter.svg" alt="" class="hover:scale-110 duration-300 cursor-pointer">
+                <img src="img/google.svg" alt="" class="hover:scale-110 duration-300 cursor-pointer">
+            </div>
+            </div>
+            
+            <div class="section-2 flex flex-col justify-center items-start gap-5 text-white">
+                <h class="text-bold text-3xl  mb-4">Company</h>
+                <ul class="text-xl space-y-4 text-gray-300">
+                    <li>About</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms and Conditions</li>
+                    <li>Faqs</li>
+                    <li>Grievance Policy</li>
+                </ul>
+            </div>
+
+            <div class="section-3 flex flex-col justify-center items-start gap-10 text-white">
+                <h class="text-bold text-3xl  mb-4">Services</h>
+                <ul class="text-xl space-y-4 text-gray-300">
+                    <li>Domestic Money Transfer</li>
+                    <li>Aadhaar Banking/Cashout</li>
+                    <li>Utility Bill Payments</li>
+                    <li>FasTag</li>
+                    <li>Micro/Mini ATM</li>
+                </ul>
+            </div>
+
+            <div class="section-4 flex flex-col justify-center items-start text-white gap-6">
+                <h class="text-bold text-3xl mb-1  ">API Developer Stack</h>
+                <ul class="text-xl space-y-4 text-gray-300 ">
+                    <li >DMT API</li>
+                    <li>AePS Cashout SDK</li>
+                    <li>Bill Payment API</li>
+                    <li>Recharge & DTH API</li>
+                    <li>Account Verification API</li>
+                    <li>Wallet Add Money API</li>
+            </div>
+        </div>
+        <div class="w-[90%] bg-gray-300 h-[2px] mt-10"></div>
+
+
+            <div class="flex">
+                <p class="text-gray-200 font-semibold mt-4">Copy right by Ezypay. All right reserved</p>        
+                <p class="text-white font-semibold absolute right-40 mt-2 ">Designed & Developed by <span class="flex justify-center items-center gap-2"> <img src="img/inferror.svg" alt="" class="h-5">inferror</span></p>
+                
+            </div>
+           
+        
+
+    </div>
+    <!------------------------footer section ends ------------------------>
+    <!-- cdn script links  -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+
+
+</body>
+
+</html>
